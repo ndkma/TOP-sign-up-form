@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
 body {
     color: white;
     background-color: black;
+    margin: 0;
+    border: 2px solid rgb(78, 60, 43);
    
    
 }
@@ -8,15 +12,20 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    border: 2px solid orange;
+    
     
 }
 
 
 .left-side {
-    flex: 1.05;
+    flex: 1;
     position: relative;
-    
+    background-image: url(./images/snapbythree-my-g6e641CiHFQ-unsplash.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
+   
 }
 
 .right-side {
@@ -48,19 +57,22 @@ body {
 
 .odin-logo-container {
     width: 100%;
+    height: max(15%, 20px);
     position: absolute;
     top: min(10vh, 10%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0.1vw;
-    opacity: 40%;    
+    opacity: 50%;    
+    background-color:rgb(78, 60, 43)
 }
 
 .odin-logo-container h1 {
+    font-family: 'Stick', sans-serif;
     color: white;
-    font-size: 2em;
+    font-size: max(5vh, 16px);
     width: max-content;
 }
 
@@ -79,7 +91,6 @@ a {
 
 
 .odin-logo-container img {
-    width: min(150px, 25%);
-    height: min(150px, 25%);
+    height: 100%;
     
 }
