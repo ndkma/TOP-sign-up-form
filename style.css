@@ -36,18 +36,83 @@ body {
 }
 
 .top-right {
- 
-
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    border: 2px solid white;
+    text-align: left;
+    font-family: 'Stick', sans-serif;
+    font-size: max(2vh, 16px);
+    line-height: 1.8;
+    
 }
 
 .top-right p {
     max-width: 500px;
+ 
 }
 
-.top-left {
-   
-
+form {
+    flex: 3;
+    border: 2px solid white;
+    
 }
+
+form fieldset {
+    display: flex;
+    
+    
+}
+
+ul {
+    margin-left: 10%;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: (2vh, 16px);
+    font-family: 'Stick', sans-serif;
+    
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+
+.bottom-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    padding-left: 10vw;
+    border: 2px solid white;
+    text-align: left;
+    font-family: 'Stick', sans-serif;
+    font-size: max(2vh, 16px);
+}
+
+.bottom-right button {
+    max-width: max(2vw, 100px);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Stick', sans-serif;
+    background: rgb(78, 60, 43);
+}
+
+.bottom-right button:hover {
+    background: black
+}
+
+    
+
+
 
 .main-image {
     max-width:100%;
