@@ -2,10 +2,9 @@
 
 body {
     color: white;
-    background-color: black;
     margin: 0;
     border: 2px solid rgb(78, 60, 43);
-   
+    background-color: black;
    
 }
 
@@ -41,42 +40,55 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-left: 10vw;
-    border: 2px solid white;
     text-align: left;
     font-family: 'Stick', sans-serif;
-    font-size: max(2vh, 16px);
+    font-size: max(2.5vh, 21px);
     line-height: 1.8;
+    opacity: 80%; 
+    background-color:rgb(46, 35, 25)
+    
     
 }
 
 .top-right p {
-    max-width: 500px;
+    max-width: 800px;
  
 }
 
 form {
-    flex: 3;
-    border: 2px solid white;
-    
+    flex: 2;
+    background-color:rgb(41, 30, 21);
+    opacity: 80%
+       
+}
+
+form p {
+    padding-left: 10vw;
+    font-family: 'Stick', sans-serif;
+    font-size: max(2.5vh, 21px);
 }
 
 form fieldset {
     display: flex;
-    
-    
+    border: 0;
+       
 }
 
-ul {
-    margin-left: 10%;
+legend {
+    display: none;
 }
+
+
 
 li {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    font-size: (2vh, 16px);
+    padding-left: 10vw;
     font-family: 'Stick', sans-serif;
     
+}
+label {
+    font-size: max(2.1vh, 19px);
 }
 
 input {
@@ -85,15 +97,16 @@ input {
 
 
 .bottom-right {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;   
     padding-left: 10vw;
-    border: 2px solid white;
     text-align: left;
     font-family: 'Stick', sans-serif;
-    font-size: max(2vh, 16px);
+    font-size: max(2.5vh, 21px);
+    background-color:rgb(46, 35, 25);
+    opacity: 80%; 
 }
 
 .bottom-right button {
@@ -107,7 +120,7 @@ input {
 }
 
 .bottom-right button:hover {
-    background: black
+    background: rgb(41, 30, 21);
 }
 
     
