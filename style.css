@@ -11,8 +11,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    
-    
+        
 }
 
 
@@ -39,19 +38,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10vw;
+    padding-left: 7vw;
     text-align: left;
     font-family: 'Stick', sans-serif;
     font-size: max(2.5vh, 21px);
     line-height: 1.8;
-    opacity: 80%; 
-    background-color:rgb(46, 35, 25)
-    
-    
-}
-
-.top-right p {
-    max-width: 800px;
+    max-width:100%;
+    max-height:100%;
+    z-index: -1;
+    opacity: 80%
  
 }
 
@@ -63,7 +58,7 @@ form {
 }
 
 form p {
-    padding-left: 10vw;
+    padding-left: 7vw;
     font-family: 'Stick', sans-serif;
     font-size: max(2.5vh, 21px);
 }
@@ -79,11 +74,10 @@ legend {
 }
 
 
-
 li {
     list-style: none;
     display: flex;
-    padding-left: 10vw;
+    padding-left: 7vw;
     font-family: 'Stick', sans-serif;
     
 }
@@ -93,6 +87,7 @@ label {
 
 input {
     margin-bottom: 30px;
+    width: 300px;
 }
 
 
@@ -101,7 +96,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;   
-    padding-left: 10vw;
+    padding-left: 7vw;
     text-align: left;
     font-family: 'Stick', sans-serif;
     font-size: max(2.5vh, 21px);
@@ -122,10 +117,6 @@ input {
 .bottom-right button:hover {
     background: rgb(41, 30, 21);
 }
-
-    
-
-
 
 .main-image {
     max-width:100%;
